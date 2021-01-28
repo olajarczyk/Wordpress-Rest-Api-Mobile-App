@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Home"
+        android:id="@+id/action_home"
+        android:icon="@drawable/ic_home"/>
+
+    <item android:title="Table"
+        android:id="@+id/action_table"
+        android:icon="@drawable/ic_trophy"/>
+
+    <item android:title="Events"
+        android:id="@+id/action_events"
+        android:icon="@drawable/ic_event_note"/>
+
+    <item android:title="Team"
+        android:id="@+id/action_team"
+        android:icon="@drawable/ic_soccer_ball"/>
+
+    <item android:title="Map"
+        android:id="@+id/action_map"
+        android:icon="@drawable/ic_location"/>
+</menu>

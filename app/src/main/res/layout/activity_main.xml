@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/nav_menu"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layout_marginBottom="55dp"
+        tools:ignore="ExtraText">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/team_podgorze"
+                android:layout_width="410dp"
+                android:layout_height="144dp"
+                android:layout_marginLeft="-30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="0dp"
+                android:scrollbars="vertical"
+                app:srcCompat="@drawable/sport_news" />
+
+            <Button
+            android:id="@+id/nabór"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E2B55F"
+            android:text="Nabór"
+            android:textColor="#FFF" />
+
+
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Klub Sportowy Podgórze ogłasza nabór do drużyn młodzieżowych."
+            android:padding="1dp"
+            android:scrollbars="vertical"
+                android:textColor="#08084a"
+                android:background="#fbfbfb"
+            android:textSize="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"/>
+
+            <TextView
+            android:id="@+id/przynaleznosc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Przynależność:  III Liga Kobiet Małopolska "
+            android:padding="1dp"
+            android:scrollbars="vertical"
+            android:textColor="#08084a"
+            android:background="#fbfbfb"
+            android:textSize="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            />
+
+            <TextView
+            android:id="@+id/informacje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Treningi odbywają się na boisku przy ulicy Dekerta 21 w każdy wtorek o 19:30 i czwartek o 19:30"
+            android:padding="1dp"
+            android:scrollbars="vertical"
+            android:textColor="#08084a"
+            android:background="#fbfbfb"
+            android:textSize="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            />
+
+            <Button
+            android:id="@+id/aktualności"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E2B55F"
+            android:text="Aktualności"
+            android:textColor="#FFF" />
+
+            <ImageButton
+            android:id="@+id/post_one"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/glowna" />
+
+            <ImageButton
+                android:id="@+id/post_two"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="20dp"
+                app:srcCompat="@drawable/team_2"/>
+
+            <ImageButton
+                android:id="@+id/post_three"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="20dp"
+                app:srcCompat="@drawable/team_3"/>
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
