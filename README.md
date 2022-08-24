@@ -6,7 +6,7 @@
 
 In the start view, the user can read basic information about the club and training sessions. From the level of this activity, it is possible to navigate to the views of other activities, thanks to a special navigation bar.
 
-![i](https://aleksandrajarczyk.com/inne/Beztytulu1.png)
+![i](https://aleksandrajarczyk.com/inne/Beztytulu.png)
 
 ![i](https://aleksandrajarczyk.com/inne/Beztytulu1.png)
 
